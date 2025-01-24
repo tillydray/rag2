@@ -58,6 +58,7 @@ corpus_of_documents = [
     "Attend a workshop or lecture on a topic you're interested in.",
     "Visit an amusement park and ride the roller coasters."
 ]                                                                                                      
+os.environ["OPENAI_API_KEY"] = "CHANGE ME"
 user_prompt = "What is a leisure activity that you like?"
 user_input = "I don't like to hike"
 base_prompt = """                                                                                           
